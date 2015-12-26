@@ -1,0 +1,23 @@
+#import <Foundation/Foundation.h>
+ 
+int main ()
+{
+   /* local variable definition */
+   int a = 100;
+   int b = 200;
+ 
+   /* check the boolean condition */
+   if( a == 100 )
+   {
+       /* if condition is true then check the following */
+       if( b == 200 )
+       {
+          /* if condition is true then print the following */
+          NSLog(@"Value of a is 100 and b is 200\n" );
+       }
+   }
+   NSLog(@"Exact value of a is : %d\n", a );
+   NSLog(@"Exact value of b is : %d\n", b );
+ 
+   return 0;
+}

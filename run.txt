@@ -1,0 +1,2 @@
+clang -framework Foundation helloworld.m -o hello
+./helloo
